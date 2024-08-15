@@ -106,6 +106,7 @@
 
     .technologies__item {
         width: 100%;
+        font-size: 20px;
     }
 
     .technologies__item_yellow,
