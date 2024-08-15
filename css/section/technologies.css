@@ -1,0 +1,117 @@
+.technologies {
+    margin-top: 46px;
+}
+
+.container {}
+
+.technologies__contant {}
+
+.technologies__title {}
+
+.technologies__info {
+    margin-top: 84px;
+    display: flex;
+    column-gap: 63px;
+    align-items: center;
+    padding: 43px 115px 0px 108px;
+    background-color: rgb(234, 242, 245);
+    border-radius: 48px;
+}
+
+.technologies__img {}
+
+.technologies__data {}
+
+.technologies__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 11px;
+}
+
+.technologies__item {
+    padding: 11px 16px;
+    border-radius: 44px;
+    color: #fff;
+}
+
+.technologies__item_blue {
+    background-color: #5096ff;
+}
+
+.technologies__item_yellow {
+    background-color: #FFB359;
+}
+
+.technologies__item_orange {
+    background-color: #FF6F50;
+}
+
+.technologies__item_green {
+    background-color: #4BD071;
+}
+
+.technologies__item_heavenly {
+    background-color: #50C0FF;
+}
+
+.technologies__item_dark-blue {
+    background-color: #4B77B9;
+}
+
+.technologies__item_dark-purple {
+    background-color: #AF93FF;
+}
+
+.technologies__text {
+    margin-top: 30px;
+    color: rgb(34, 37, 59);
+    font-family: Gilroy SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+
+@media (max-width: 1085px) {
+    .technologies__info {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .technologies__data {
+        text-align: center;
+    }
+
+    .technologies__list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .technologies__info {
+        padding: 17px 16px;
+        margin-top: 22px;
+    }
+
+    .technologies__img {
+        display: none;
+    }
+
+    .technologies__text {
+        display: none;
+    }
+
+    .technologies__item {
+        width: 100%;
+    }
+
+    .technologies__item_yellow,
+    .technologies__item_orange,
+    .technologies__item_dark-blue,
+    .technologies__item_dark-purple {
+        width: 48%;
+    }
+}
