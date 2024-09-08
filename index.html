@@ -7,6 +7,8 @@
     <title>YtYt</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://myfonts.ru/myfonts?fonts=gilroy" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -86,7 +88,7 @@
             </section>
 
             <section class="offers">
-                <div class="container"> 
+                <div class="container">
                     <div class="offers__contant">
                         <div class="title offers__title">Обучение в YtYt – это удобно и результативно</div>
                         <div class="offers__info">
@@ -94,18 +96,20 @@
                                 <li class="offers__item">
                                     <img src="img/offers/pic1.png" alt="1 иконка">
                                     <div class="offers__item-title">Огромное количество практики</div>
-                                    <div class="offers__item-text">Более 500 самостоятельных заданий и 20 полноценных больших проектов</div>
+                                    <div class="offers__item-text">Более 500 самостоятельных заданий и 20 полноценных
+                                        больших проектов</div>
                                 </li>
                                 <li class="offers__item">
                                     <img src="img/offers/pic2.png" alt="2 иконка">
                                     <div class="offers__item-title">Современные методики обучения</div>
-                                    <div class="offers__item-text">Спиральное обучение: 
+                                    <div class="offers__item-text">Спиральное обучение:
                                         погружаемся в материал постепенно, виток за витком</div>
                                 </li>
                                 <li class="offers__item">
                                     <img src="img/offers/pic3.png" alt="3 иконка">
                                     <div class="offers__item-title">Простое и понятное изложение</div>
-                                    <div class="offers__item-text">Вместо заумных терминов – примеры из реального мира</div>
+                                    <div class="offers__item-text">Вместо заумных терминов – примеры из реального мира
+                                    </div>
                                 </li>
                                 <li class="offers__item">
                                     <img src="img/offers/pic4.png" alt="4 иконка">
@@ -115,17 +119,20 @@
                                 <li class="offers__item">
                                     <img src="img/offers/pic5.png" alt="5 иконка">
                                     <div class="offers__item-title">Прямая связь с опытными программистами</div>
-                                    <div class="offers__item-text">Задавайте вопросы и отправляйте свой код на проверку</div>
+                                    <div class="offers__item-text">Задавайте вопросы и отправляйте свой код на проверку
+                                    </div>
                                 </li>
                                 <li class="offers__item">
                                     <img src="img/offers/pic6.png" alt="6 иконка">
                                     <div class="offers__item-title">Оплата небольшими частями</div>
-                                    <div class="offers__item-text">Платите только за тот материал, который сейчас изучаете, а не за весь курс сразу</div>
+                                    <div class="offers__item-text">Платите только за тот материал, который сейчас
+                                        изучаете, а не за весь курс сразу</div>
                                 </li>
                                 <li class="offers__item offers__item_last">
                                     <img src="img/offers/pic7.png" alt="7 иконка">
                                     <div class="offers__item-title">Быстрый и легкий возврат</div>
-                                    <div class="offers__item-text">Если передумаете учиться – вернем деньги за 3 рабочих дня</div>
+                                    <div class="offers__item-text">Если передумаете учиться – вернем деньги за 3 рабочих
+                                        дня</div>
                                 </li>
                             </div>
                         </div>
@@ -136,6 +143,33 @@
 
         </div>
     </div>
+
+    <div class="wrapper-menu">
+        <div class="menu">
+            <div class="close-button">&times;</div>
+            <h2>Меню</h2>
+            <div class="menu-item">Чему вы научитесь</div>
+            <div class="menu-item">Процесс обучения</div>
+            <div class="menu-item">Стоимость</div>
+            <div class="menu-item">Контакты</div>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.burger').click(function () {
+                $('.wrapper-menu').css('display', 'block'); // Показываем меню
+                $('.wrapper').css('display', 'none');
+            });
+
+            $('.close-button').click(function () {
+                $('.wrapper-menu').css('display', 'none'); // Скрываем меню
+                $('.wrapper').css('display', 'block');
+            });
+        });
+
+    </script>
 </body>
 
 </html>

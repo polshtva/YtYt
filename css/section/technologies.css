@@ -2,11 +2,6 @@
     margin-top: 46px;
 }
 
-.container {}
-
-.technologies__contant {}
-
-.technologies__title {}
 
 .technologies__info {
     margin-top: 84px;
@@ -18,9 +13,6 @@
     border-radius: 48px;
 }
 
-.technologies__img {}
-
-.technologies__data {}
 
 .technologies__list {
     display: flex;
