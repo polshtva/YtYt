@@ -29,6 +29,7 @@
 
 .technologies__item_blue {
     background-color: #5096ff;
+    width: 70%;
 }
 
 .technologies__item_yellow {
@@ -41,6 +42,7 @@
 
 .technologies__item_green {
     background-color: #4BD071;
+    width: 58%;
 }
 
 .technologies__item_heavenly {
@@ -49,10 +51,12 @@
 
 .technologies__item_dark-blue {
     background-color: #4B77B9;
+    width: 20%;
 }
 
 .technologies__item_dark-purple {
     background-color: #AF93FF;
+    width: 20%;
 }
 
 .technologies__text {

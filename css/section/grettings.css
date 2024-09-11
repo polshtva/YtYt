@@ -98,10 +98,11 @@
     line-height: 144%;
     color: #22253b;
     border-top: 1px solid #dedede;
+    margin-bottom: 39px;
 }
 
 .test {
-    margin-top: 39px;
+ 
     border-radius: 82px;
     background: rgb(241, 85, 37);
     padding: 20px 50px 20px 45px;
@@ -115,10 +116,6 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 96.69%;
-    letter-spacing: -3%;
-    text-align: center;
-    display: flex;
-    align-items: center;
 }
 
 .test__link::after {
@@ -128,7 +125,7 @@
     width: 20px;
     height: 20px;
     margin-left: 12px;
-    margin-top: 8px;
+    transform: translateY(5px);
 }
 
 
