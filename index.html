@@ -49,10 +49,8 @@
                         <div class="hero__text">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам
                         </div>
 
-                        <div class="block">
-                            <div class="test">
-                                <a href="" class="test__link">Пройти тестирование</a>
-                            </div>
+                        <div class="test">
+                            <a href="" class="test__link">Пройти тестирование</a>
                         </div>
                     </div>
                     <img src="img/grettings/compucter.png" alt="">
@@ -141,7 +139,93 @@
             </section>
 
 
+            <section class="education">
+                <div class="container">
+                    <div class="education__contant">
+                        <div class="education__title">Как происходит обучение на YtYt?</div>
+                        <div class="education__text">Обучение должно быть комфортным. Поэтому мы разработали собственную
+                            платформу для обучения программированию. На ней вы
+                            можете не только изучать теорию, но и запускать готовые примеры и даже писать свой
+                            собственный код.</div>
+
+
+                        <div class="education-block-img">
+                            <img src="img/education/comp.png" class="education__comp">
+                            <img src="img/education/btn.png" alt="" class="education__btn-video">
+                        </div>
+
+                        <ul class="education__list">
+                            <li class="education__item">
+                                <div class="education__item-num">01</div>
+                                <div class="education__item-title">Весь материал разбит на небольшие уроки</div>
+                                <div class="education__item-text">Теория и практика подаются маленькими порциями. Так
+                                    вам будет легче усваивать новые знания.</div>
+                            </li>
+                            <li class="education__item">
+                                <div class="education__item-num">02</div>
+                                <div class="education__item-title">Обучение через практику</div>
+                                <div class="education__item-text">Всё, что вы узнали, вы тут же начинаете применять на
+                                    практике. Вы сразу видите результаты своего труда.</div>
+                            </li>
+                            <li class="education__item">
+                                <div class="education__item-num">03</div>
+                                <div class="education__item-title">Нет ограничений по времени</div>
+                                <div class="education__item-text">Можно совмещать учёбу с работой и другими делами. Не
+                                    нужно выпрашивать академический отпуск, если пришлось сделать
+                                    перерыв.</div>
+                            </li>
+                        </ul>
+
+                        <div class="education__block">
+                            <div class="test">
+                                <a href="" class="test__link">Начать обучение</a>
+                            </div>
+                            <div class="education__extra-text">Попробуйте, первые уроки бесплатны, но нужно пройти
+                                тестирование</div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="info">
+                <div class="container">
+                    <div class="info__contant">
+                        <div class="info__sesian">
+                            <div class="info__block info__img">
+                                <img src="img/info/pic1.png" alt="">
+                            </div>
+                            <div class="info__block info__desc">
+                                <div class="info__title">Помощь и поддержка</div>
+                                <div class="info__text">Если в процессе обучения возникнут сложности, вы всегда сможете
+                                    задать вопрос своему наставнику. <br>
+                                    Раз в несколько уроков вы будете получать большое задание, которое нужно будет
+                                    сдавать
+                                    на проверку код-ревьюеру. Он
+                                    внимательно изучит ваш код, найдет ошибки и поможет вам стать лучше.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info__sesian">
+                            <div class="info__block info__desc">
+                                <div class="info__title">Методика обучения</div>
+                                <div class="info__text">Весь учебный материал структурирован по принципу «спирального
+                                    обучения». Сначала вы получаете базовые знания, а затем на
+                                    каждом витке спирали углубляетесь в изученные темы, доводя их понимание до
+                                    совершенства.
+                                    Такой подход упрощает обучение
+                                    и гарантирует, что вы не пропустите ничего важного.</div>
+                            </div>
+                            <div class="info__block info__img">
+                                <img src="img/info/pic2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
+    </div>
     </div>
 
     <div class="wrapper-menu">
@@ -152,6 +236,14 @@
             <div class="menu-item">Процесс обучения</div>
             <div class="menu-item">Стоимость</div>
             <div class="menu-item">Контакты</div>
+        </div>
+    </div>
+
+
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe width="560" height="315" src="img/1 видео .mp4" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
@@ -167,7 +259,21 @@
                 $('.wrapper-menu').css('display', 'none'); // Скрываем меню
                 $('.wrapper').css('display', 'block');
             });
+
+            //Видео
+            $('.education__btn-video').click(function () {
+                $('.modal').css('display', 'block');
+            });
+            $('.close').click(function () {
+                $('.modal').css('display', 'none');
+            });
+
+
         });
+
+
+
+
 
     </script>
 </body>
